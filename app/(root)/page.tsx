@@ -9,10 +9,10 @@ export default function Home() {
       <div className="wrapper grid grid-cols-1 gap-5 md:grid-cols-2 2xl:gap-0">
         <div className="flex flex-col justify-center gap-8">
           <h1 className="h1-bold">
-            Search for Rand all over the globe
+            Search for events all over the globe
           </h1>
           <p className="p-regular-20 md:p-regular-24">
-            Host a randi session today!  
+            Host an event today! 
           </p>
           {/* asChild here renders the 'Link' that is wrapped inside the button. So instead of the usual button behavior it will 
              have the behavior of Link, while having the style of button itself. 
@@ -35,7 +35,7 @@ export default function Home() {
     </section>
     <section id="events" className="wrapper my-8 flex flex-col gap-8 md:gap-12">
       <h2 className="h2-bold">
-        Trusted by <br /> Your mom 
+        Trusted by <br /> all users
       </h2>
       <div className="flex w-full flex-col gap-5 md:flex-row">
         Search 
